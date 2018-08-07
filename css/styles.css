@@ -7,5 +7,17 @@
 .col {
   padding: 2%;
   margin: 2px;
-  border: 2px solid #fff;
+}
+
+p {
+  display: none;
+}
+
+.clickable {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable:hover {
+  text-decoration: underline;
 }

@@ -4,7 +4,7 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
-   <title> Adopt a Pet Program</title>
+   <title> JS Flash Card Site</title>
   </head>
   <body>
     <div class="container">
@@ -13,79 +13,98 @@
       </div>
 
       <div class="row">
-        <div id="JS" class="col">
-          <h2>Javascript</h2>
+        <div class="col border">
+          <h2 class="clickable" id="hjs">Javascript</h2>
+          <p id="js">An object-oriented computer programming language commonly used to create interactive effects within web browsers.</p>
         </div>
-        <div id="operators" class="col">
-          <h2>Operators</h2>
+        <div class="col border">
+          <h2 class="clickable" id="hoperators">Operators</h2>
+          <p id="operators">Operators in JavaScript are very similar to operators that appear in other programming languages. The definition of an operator is a symbol that is used to perform an operation. Most often these operations are arithmetic (addition, subtraction, etc), but not always.</p>
         </div>
-        <div id="variables" class="col">
-          <h2>Variables</h2>
-        </div>
-      </div>
-
-      <div class="row">
-        <div id="conventions" class="col">
-          <h2>Variable Naming Conventions</h2>
-        </div>
-        <div id="functions" class="col">
-          <h2>Functions</h2>
-        </div>
-        <div id="methods" class="col">
-          <h2>Methods</h2>
+        <div class="col border">
+          <h2 class="clickable" id="hvariables">Variables</h2>
+          <p id="variables">Variables can be thought of as named containers. You can place data into these containers and then refer to the data simply by naming the container. Before you use a variable in a JavaScript program, you must declare it. Variables are declared with the var keyword as follows.</p>
         </div>
       </div>
 
       <div class="row">
-        <div id="arguments" class="col">
-          <h2>Arguments</h2>
+        <div class="col border">
+          <h2 class="clickable" id="hconventions">Variable Naming Conventions</h2>
+          <p id="conventions">Generic patterns that should be adhered in order to write readable, consistent and maintainable code.</p>
         </div>
-        <div id="parameters" class="col">
-          <h2>Parameters</h2>
+        <div class="col border">
+          <h2 class="clickable" id="hfunctions">Functions</h2>
+          <p id="functions">Functions are one of the fundamental building blocks in JavaScript. A function is a JavaScript procedure—a set of statements that performs a task or calculates a value. To use a function, you must define it somewhere in the scope from which you wish to call it.</p>
         </div>
-        <div id="return" class="col">
-          <h2>Return</h2>
+        <div class="col border">
+          <h2 class="clickable" id="hmethods">Methods</h2>
+          <p id="methods">JavaScript methods are actions that can be performed on objects. A JavaScript method is a property containing a function definition. Property. Value. firstName.</p>
         </div>
       </div>
 
       <div class="row">
-        <div id="chaining" class="col">
-          <h2>Chaining Methods</h2>
+        <div class="col border">
+          <h2 class="clickable" id="harguments">Arguments</h2>
+          <p id="arguments">The Arguments Object. JavaScript functions have a built-in object called the arguments object. The argument object contains an array of the arguments used when the function was called (invoked).</p>
         </div>
-        <div id="strings" class="col">
-          <h2>Strings</h2>
+        <div class="col border">
+          <h2 class="clickable" id="hparameters">Parameters</h2>
+          <p id="parameters">A list of parameters to the function, enclosed in parentheses and separated by commas. The JavaScript statements that define the function, enclosed in curly brackets.</p>
         </div>
-        <div id="booleans" class="col">
-          <h2>Booleans</h2>
+        <div class="col border">
+          <h2 class="clickable" id="hreturn">Return</h2>
+          <p id="return">In JavaScript, return statements cease execution in a function and return a value to the caller; JavaScript functions require an explicit return statement for returning the result of an expression (the value) from a function. When a return statement is not present, the interpreter automatically returns undefined.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col border">
+          <h2 class="clickable" id="hchaining">Chaining Methods</h2>
+          <p id="chaining">Chaining Methods, also known as Cascading, refers to repeatedly calling one method after another on an object, in one continuous line of code. This technique abounds in jQuery and other JavaScript libraries and it is even common in some JavaScript native methods.</p>
+        </div>
+        <div class="col border">
+          <h2 class="clickable" id="hstrings">Strings</h2>
+          <p id="strings">A JavaScript string stores a series of characters like "John Doe". A string can be any text inside double or single quotes: var carname = "Volvo XC60"; var carname = 'Volvo XC60'; String indexes are zero-based: The first character is in position 0, the second in 1, and so on.</p>
+        </div>
+        <div class="col border">
+          <h2 class="clickable" id="hbooleans">Booleans</h2>
+          <p id="booleans">The Boolean object represents two values, either "true" or "false". If value parameter is omitted or is 0, -0, null, false, NaN, undefined, or the empty string (""), the object has an initial value of false.</p>
         </div>
       </div>
       <div class="row">
-        <div id="undefined" class="col">
-          <h2>Undefined</h2>
+        <div class="col border">
+          <h2 class="clickable" id="hundefined">Undefined</h2>
+          <p id="undefined">In JavaScript, undefined means a variable has been declared but has not yet been assigned a value, such as: var TestVar; alert(TestVar); //shows undefined alert(typeof TestVar); //shows undefined. null is an assignment value.</p>
         </div>
-        <div id="NaN" class="col">
-          <h2>NaN</h2>
+        <div class="col border">
+          <h2 class="clickable" id="hnan">NaN</h2>
+          <p id="nan">The NaN property represents "Not-a-Number" value. This property indicates that a value is not a legal number. The NaN property is the same as the Number.Nan property. Tip: Use the isNaN() global function to check if a value is a NaN value.</p>
         </div>
-        <div id="escape" class="col">
-          <h2>Escape</h2>
+        <div class="col border">
+          <h2 class="clickable" id="hescape">Escape</h2>
+          <p id="escape">The escape() function encodes a string. This function makes a string portable, so it can be transmitted across any network to any computer that supports ASCII characters.</p>
         </div>
 
       </div>
       <div class="row">
-        <div id="alert" class="col">
-          <h2>Alert</h2>
+        <div class="col border">
+          <h2 class="clickable" id="halert">Alert</h2>
+          <p id="alert">The alert() method displays an alert box with a specified message and an OK button. An alert box is often used if you want to make sure information comes through to the user. Note: The alert box takes the focus away from the current window, and forces the browser to read the message.</p>
         </div>
-        <div id="comments" class="col">
-          <h2>Comments</h2>
+        <div class="col border">
+          <h2 class="clickable" id="hcomments">Comments</h2>
+          <p id="comments">When writing code you may have some complex logic that is confusing, this is a perfect opportunity to include some comments in the code that will explain what is going on. Not only will this help you remember it later on, but if you someone else views your code, they will also be able to understand the code (hopefully)!</p>
         </div>
-        <div id="jquery" class="col">
-          <h2>jQuery</h2>
+        <div class="col border">
+          <h2 class="clickable" id="hjquery">jQuery</h2>
+          <p id="jquery">jQuery is a JavaScript library that allows web developers to add extra functionality to their websites. It is open source and provided for free under the MIT license. In recent years, jQuery has become the most popular JavaScript library used in web development.</p>
         </div>
 
       </div>
       <div class="row">
-        <div id="attributes" class="col">
-          <h2>Attributes</h2>
+        <div class="col border">
+          <h2 class="clickable" id="hattributes">Attributes</h2>
+          <p id="attributes">In HTML language, tags may have attributes. When the browser reads HTML text and creates DOM objects for tags, it recognizes standard attributes and creates DOM properties from them.</p>
         </div>
       </div>
     </div>
